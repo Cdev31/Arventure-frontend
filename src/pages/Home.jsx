@@ -86,13 +86,13 @@ const Home = () => {
             <button className="text-sm font-semibold text-teal-700">Ver más</button>
           </div>
 
-          <div className="relative overflow-hidden rounded-[32px] bg-slate-950 shadow-[0_24px_80px_-40px_rgba(15,23,42,0.5)]">
+          <div className="relative overflow-hidden rounded-4xl bg-slate-950 shadow-[0_24px_80px_-40px_rgba(15,23,42,0.5)]">
             <img
               src={featured?.image || featuredImage}
               className="h-64 w-full object-cover"
               alt={featured?.name || 'Destino destacado'}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-slate-950/90 via-slate-950/30 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
               <h4 className="text-2xl font-bold text-white mb-1 italic">{featured?.name || 'Joya de Cerén'}</h4>
               <p className="text-slate-200 text-sm mb-2">{featured?.location?.address || 'RJCR+V6R, Carr. San Juan Opico - Agua Escondida Km 32, Joya de Cerén'}</p>

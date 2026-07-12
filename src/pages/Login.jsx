@@ -23,7 +23,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-[#FAF9F6] px-4 py-12 sm:px-6 lg:px-8">
-      <div className="mx-auto w-full max-w-md rounded-[32px] bg-white p-8 shadow-[0_25px_120px_-80px_rgba(15,23,42,0.5)]">
+      <div className="mx-auto w-full max-w-md rounded-4xl bg-white p-8 shadow-[0_25px_120px_-80px_rgba(15,23,42,0.5)]">
         <h1 className="text-3xl font-bold text-slate-900 mb-4">Iniciar sesión</h1>
         <p className="text-slate-500 mb-8">Ingresa tu nombre y correo para acceder a tus viajes y planificaciones.</p>
 

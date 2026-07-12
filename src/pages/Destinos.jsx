@@ -18,7 +18,7 @@ const Destinos = () => {
   return (
     <div className="min-h-screen bg-[#faf9f6] text-slate-900 pb-32 pt-6 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-3xl space-y-6">
-        <section className="rounded-[32px] bg-white p-5 shadow-[0_30px_80px_-40px_rgba(15,23,42,0.35)] sm:p-6">
+        <section className="rounded-4xl bg-white p-5 shadow-[0_30px_80px_-40px_rgba(15,23,42,0.35)] sm:p-6">
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h1 className="text-2xl font-bold sm:text-3xl">Explora este destino</h1>
@@ -28,7 +28,7 @@ const Destinos = () => {
           </div>
         </section>
 
-        <article className="overflow-hidden rounded-[32px] bg-white shadow-[0_30px_80px_-40px_rgba(15,23,42,0.2)]">
+        <article className="overflow-hidden rounded-4xl bg-white shadow-[0_30px_80px_-40px_rgba(15,23,42,0.2)]">
           <img src={site.image} alt={site.name} className="h-64 w-full object-cover sm:h-80" />
           <div className="space-y-6 p-5 sm:p-8">
             <div className="space-y-3">
